@@ -20,6 +20,7 @@ public class Theopenclass {
         driver.switchTo().newWindow(WindowType.TAB);
 
         driver.get("https://in.yahoo.com/");
+        Thread.sleep(2000);
 
         driver.navigate().back();
         driver.switchTo().newWindow(WindowType.TAB);

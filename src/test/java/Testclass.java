@@ -7,6 +7,8 @@ public class Testclass {
     public static void launch() throws InterruptedException {
 
         Theopenclass.startup();
+        Thread.sleep(2000);
+
     }
 
 
